@@ -36,7 +36,7 @@ I have made projects: WEB application "quiz for programmers", chess in Python, w
 
 Write a cached decorator that will cache the result of a function call.
 
-```
+```python
 def cached(func):
     results = {}
     
@@ -55,7 +55,7 @@ def cached(func):
 
 An example of how my decorator can be used:
 
-```
+```python
 @cached 
 def fib(n): 
     if n == 1 or n == 2: 
