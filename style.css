@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     font-family: 'Chakra Petch', sans-serif;
@@ -19,7 +23,8 @@ li {
     font-size: 20px;
 }
 
-pre, span {
+pre,
+span {
     font-size: 17px;
 }
 
